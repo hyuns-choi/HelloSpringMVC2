@@ -118,7 +118,7 @@
 			<scope>test</scope>
 		</dependency>
 				
-		
+		<!--  추가시작 -->
 		<!-- Hibernate -->
 		<dependency>
 			<groupId>org.hibernate</groupId>
@@ -146,13 +146,14 @@
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/webapp/WEB-INF/lib/ojdbc6.jar</systemPath>
 		</dependency>		
-	
 		
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-dbcp2</artifactId>
 			<version>2.1.1</version>
 		</dependency>
+		
+		<!--  추가끝 -->
 		        
 	</dependencies>
     <build>
